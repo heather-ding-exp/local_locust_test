@@ -1,4 +1,4 @@
-# Running a Local Load Test
+# Running a local load test
 Start a local redis instance:
 redis-server
 
@@ -7,5 +7,7 @@ python3 locustfile.py
 
 Input loads.
 
-# To test 
+# To test push
+Comment out online function in locustfile.py and uncomment push function
+
 
